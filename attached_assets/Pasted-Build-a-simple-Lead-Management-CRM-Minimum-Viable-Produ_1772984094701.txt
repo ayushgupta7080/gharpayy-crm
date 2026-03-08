@@ -1,0 +1,79 @@
+Build a simple Lead Management CRM (Minimum Viable Product) for a company called Gharpayy.
+Gharpayy helps students and working professionals find PG accommodations in Bangalore. The company receives customer inquiries from different sources like website forms, WhatsApp, social media, phone calls, and lead forms. Currently these leads are managed manually which causes confusion and missed follow-ups.
+The goal of this project is to create a simple internal CRM system where leads can be captured, assigned to agents, tracked through different stages, and managed efficiently.
+The project should be simple but functional and should demonstrate the basic workflow of a lead management system.
+Main Features
+1. Lead Capture
+Create a simple lead form where a user can submit their details.
+The form should collect:
+Name
+Phone number
+Lead source (Website, WhatsApp, Social Media, etc.)
+When the form is submitted, a lead profile should automatically be created and stored in the system.
+Each lead should contain:
+Name
+Phone number
+Lead source
+Time of submission
+Assigned agent
+Lead status
+Manual data entry should not be required.
+2. Automatic Lead Assignment
+The system should automatically assign a lead to an available agent.
+Use a simple method such as round-robin assignment so that leads are distributed equally among agents.
+Example: Lead 1 → Agent A
+Lead 2 → Agent B
+Lead 3 → Agent C
+There should also be an option to manually change the assigned agent if needed.
+3. Lead Pipeline
+Create a simple pipeline to track the progress of leads.
+Each lead should move through these stages:
+New Lead
+Contacted
+Requirement Collected
+Property Suggested
+Visit Scheduled
+Visit Completed
+Booked
+Lost
+Users should be able to update the lead stage from the dashboard.
+4. Visit Scheduling
+Agents should be able to schedule a property visit for a lead.
+The system should allow:
+Selecting a property name
+Choosing a visit date and time
+Marking the outcome after the visit
+Possible outcomes:
+Completed
+Rescheduled
+Cancelled
+Booked
+5. Follow-up Reminder
+If a lead does not receive any update for 24 hours, the system should show a reminder so the agent can follow up with the customer.
+6. Dashboard
+Create a simple dashboard that displays basic statistics such as:
+Total leads received
+Leads in each pipeline stage
+Visits scheduled
+Bookings confirmed
+This dashboard should help agents quickly see the overall status of leads.
+Optional Feature (Bonus)
+Add a lead activity timeline that shows the history of actions taken on a lead.
+Example timeline:
+Lead created
+Agent contacted lead
+Visit scheduled
+Visit completed
+Interface
+Create a clean and simple interface with the following pages:
+Lead submission form
+Leads list page
+Lead detail page
+Visit scheduling page
+Dashboard with basic statistics
+The UI should be simple and easy to understand.
+Additional Requirements
+Keep the project simple and easy to run.
+Include a few sample agents so the assignment feature works.
+Structure the project cleanly with separate folders for frontend, backend, and database.
+Add comments in the code explaining important parts.
