@@ -48,6 +48,13 @@ https://gharpayy-crm.onrender.com
 * Render (Backend & Frontend)
 * Neon (Database)
 
+**Feature Badges**
+
+* ![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
+* ![React](https://img.shields.io/badge/React-Frontend-blue)
+* ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
+* ![Render](https://img.shields.io/badge/Render-Deployed-purple)
+
 ## 📂 Project Structure
 
 ```
@@ -56,6 +63,18 @@ server/      → Express backend
 shared/      → Shared schemas and types
 script/      → Build scripts
 ```
+
+## 🧩 System Architecture
+
+Client (React + Vite)
+        |
+        | REST API
+        ↓
+Server (Node.js + Express)
+        |
+        | ORM
+        ↓
+Database (PostgreSQL - Neon)
 
 ## ⚙️ Environment Variables
 
