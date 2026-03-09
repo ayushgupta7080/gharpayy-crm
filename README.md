@@ -6,6 +6,10 @@ A **Lead Management System (CRM)** built for managing property inquiries, tracki
 
 https://gharpayy-crm.onrender.com
 
+## Project Preview
+
+![CRM Dashboard](dashboard.png)
+
 ## 📌 Features
 
 * Lead creation and management
